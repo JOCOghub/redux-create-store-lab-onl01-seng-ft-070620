@@ -7,6 +7,10 @@ function candyReducer(state = [], action) {
   }
 }
 
+function createStore(reducer){
+  return getState, dispatch
+}
+
 function render() {
   let container = document.getElementById('container');
   if(store.getState()) {
